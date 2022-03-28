@@ -1,0 +1,88 @@
+.topnavbar{
+    background-color: #333;
+    overflow: hidden;
+}
+
+.topnavbar a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-size: 17px;
+    transition: 0.3s;
+
+}
+.topnavbar a:hover{
+    background-color: #ddd;
+    color: black;
+}
+.topnavbar a.active {
+    background-color: #04aa64;
+    color: white;
+}
+.topnavbar #Titlenav{
+    float:right
+}
+.topnavbar #Titlenav a:hover{
+    background-color: inherit;
+}
+.container{
+    padding-top: 10pt;
+    display: flex;
+}
+.fixed{
+    padding-left: 150px;
+}
+
+.flex-item{
+    padding-left: 5%;
+    flex-grow: 0.5;
+}
+
+#map_legend{
+    width:400;
+    height:400 ;
+    fill:rgb(164 198 212);
+    stroke: grey;
+}
+
+#map_legends{
+    fill:black;
+}
+
+
+body{
+    background-color:#afaaaa96;
+
+}
+#mapbackground{
+    background-color: white;
+}
+
+.button-group button{
+    background-color: #6D6D6D;
+    border:1px solid #6D6D6D;
+    color:white;
+    padding: 10px 24px;
+    cursor: pointer;
+    float: left;
+}
+.button-group::after{
+    content: "";
+    clear:both;
+    display: table;
+}
+
+.button-group button:not(:last-child){
+    border-right: none;
+}
+
+.button-group button:hover{
+    background-color: #6d6d6de5;
+}
+
+#about p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15;
+}
